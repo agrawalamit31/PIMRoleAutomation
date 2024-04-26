@@ -1,8 +1,8 @@
 # Benefits of PIM Role Automation Utility
   1. PIM role assignment can be done at Subscription\Resource group level. 
-	2. We can do following operation like role assignment\extend\remove\renew.
-	3. We can do operations in bulk while in case of manual can do single operation.
-	4. We can do role assignment at user level as well as SG level.
+  2. We can do following operation like role assignment\extend\remove\renew.
+  3. We can do operations in bulk while in case of manual can do single operation.
+  4. We can do role assignment at user level as well as SG level.
 
 # Running Locally
   1. It is Quue based trigger Azure function.
