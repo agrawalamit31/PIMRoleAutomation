@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.10.4" />
+    <PackageReference Include="Azure.ResourceManager" Version="1.10.2" />
+    <PackageReference Include="Azure.ResourceManager.Authorization" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.Management.Graph.RBAC.Fluent" Version="1.38.1" />
+    <PackageReference Include="Microsoft.Graph" Version="4.47.0" />
+    <PackageReference Include="Microsoft.Identity.Client" Version="4.59.0" />
+  </ItemGroup>
+
+</Project>

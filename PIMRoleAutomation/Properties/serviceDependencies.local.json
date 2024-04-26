@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage2": {
+      "secretStore": "LocalSecretsFile",
+      "type": "storage.emulator",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=pimroleautomation;AccountKey=wXYEfeevJjGT89CxI7x0y5SJjA0bH2D5YhTuT0NfE9X:63Z9RYCzoM1oz3worNSjPFiuKY8:XrOU+ASt83apbQ==;EndpointSuffix=core.windows.net",
+      "dynamicId": null
+    }
+  }
+}
