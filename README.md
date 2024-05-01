@@ -9,7 +9,7 @@
   2. Clone the repo locally.
   3. Copy storage account connection string in AzureWebJobsStorage in local.settings.json.
   4. Assign yourself Role based Access Administrator Role or Owner role at subscription level.
-  5. Pass below message in queue for role assignment.
+  5. Pass below message in queue for role assignment at resource group level.
      
   [
     {
