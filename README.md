@@ -8,7 +8,7 @@
   1. It is Quue based trigger Azure function.
   2. Clone the repo locally.
   3. Copy storage account connection string in AzureWebJobsStorage in local.settings.json.
-  4. Assign yourself Role based Access Administrator Role.
+  4. Assign yourself Role based Access Administrator Role or Owner role at subscription level.
   5. Pass below message in queue for role assignment.
      
   [
